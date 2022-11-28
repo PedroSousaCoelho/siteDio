@@ -1,7 +1,7 @@
 import React from "react";
 import {InputContainer, IconContainer, InputText} from './styles'
 
-const input = ({leftIcon, name, ...rest}) => { 
+const Input = ({leftIcon, name, ...rest}) => { 
     return (
         <InputContainer> 
         {leftIcon ? (<IconContainer>{leftIcon}</IconContainer>) : null}
@@ -10,4 +10,4 @@ const input = ({leftIcon, name, ...rest}) => {
     )
 }
 
-export {input}
+export {Input}
