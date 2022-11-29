@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import { Button } from '../../components/Button'
+import {Button} from '../../components/Button'
 import {Header} from '../../components/Header'
 import {Input} from '../../components/Input'
 import {Container, Title, TitleHighlightd, TextContent} from './styles'
@@ -22,7 +22,7 @@ const Login = () => {
                 <Button title='Comecar agora' variant='secondary' onClick={() => null}/> 
             </div>
             <div>
-                <Input placeholder='test'></Input>
+                <Input placeholder="email"/>
             </div>    
         </Container> 
     </>)
